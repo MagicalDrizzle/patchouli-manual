@@ -1,0 +1,206 @@
+﻿<html>
+ <head><style type="text/css">
+<!--
+body {
+	background-attachment: fixed;
+	background-image: url(bg_faq.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+-->
+</style>
+
+	<title>パチュリ -まぬある-</title>
+ </head>
+
+<body text="#40a040" link="#0000ff" vlink="#ff4444" alink="#ffd700">
+
+<center><font size=6><b>　　パチュリ</b></font><font size="2">　　"PATCHOULI" a little war in bland-old library</font></center>
+<hr>
+
+<font size=3>
+
+■ＦＡＱ<br>
+よくありそうな質問の答えです<br>
+<br>
+<br>
+　<a href="#faq1" >Ｑ．インストールできません</a><br>
+　<a href="#faq2" >Ｑ．「デバイスの作成に失敗しました」や妙なダイアログが表示され起動できない</a><br>
+　<a href="#faq3" >Ｑ．「zgp1901.hpi が...」と表示され起動できない</a><br>
+　<a href="#faq4" >Ｑ．「内部エラー　(12)」又は「内部エラー　(13)」と表示され終了してしまう</a><br>
+　<a href="#faq5" >Ｑ．アンインストールするには？</a><br>
+<br>
+　<a href="#faq6">Ｑ．処理落ちが激しくてつらい</a><br>
+　<a href="#faq7">Ｑ．設定を間違えて、強烈な重さで起動してしまって、終了したい</a><br>
+<br>
+　<a href="#faq10">Ｑ．難しくて、クリアできません</a><br>
+　<a href="#faq11">Ｑ．クリアしたら何かある？</a><br>
+<br>
+　<a href="#faq12">Ｑ．オープンソースだけど、使用範囲は？</a><br>
+
+
+<br><br><br>
+<table border=0>
+
+<tr><th align="left" bgcolor="#a0a0a0"><a name="#faq1">
+Ｑ．インストールできません</a>
+<tr><td align="left">
+　インストール先のディスクがいっぱいになっていませんか？<br>
+　また、インストール先が書き込み禁止属性がついていたりしませんか？<br>
+　その場合はちゃんと容量を空けたり、プロパティから書き込み禁止属性を解除してください<br>
+<br>
+　それでも駄目なら再ダウンロードして下さい。<br>
+<br>
+<br>
+<br>
+
+
+<tr><th align="left" bgcolor="#a0a0a0"><a name="#faq2">
+Ｑ．「デバイスの作成に失敗しました」や妙なダイアログが表示され起動できない</a>
+<tr><td align="left">
+　ビデオカードか何かがDirect3D に対応してないと思われます。 ここで、以下のことを試してみてください。<br>
+  <br>
+　　・device.exeを起動して設定を色々変えてみてください。<br>
+　　　設定によっては起動できないものもあります。<br>
+　　　大抵は、Vertex processingをSoftwareにすると直ります<br>
+<br>
+　　・ビデオカードのメーカーのＨＰより、ドライバを最新の物をＤＬして見てください。<br>
+　　　ビデオカードがDirect3Dに対応している場合、多くはドライバが古いせいです。<br>
+<br>
+　　・ＯＳ起動後、他のアプリケーションを立ち上げる前に実行して見てください。<br>
+<br>
+　これでもこのメッセージが出る場合、そのビデオカードが Direct3Dに対応していないと思われます。<br>
+<br>
+<br>
+<br>
+
+
+
+<tr><th align="left" bgcolor="#a0a0a0"><a name="#faq3">
+Ｑ．「zgp1901.hpi が...」と表示され起動できない
+<tr><td align="left">
+　あなたのマシンには DirectX 8.0 以下のDirectX がインストールされています。<br>
+　WindowsUpdate （MicrosoftのＨＰ）、もしくは雑誌付録ＣＤ－ＲＯＭ等より、DirectX 8.0以上をインストールしてください。<br>
+<br>
+<br>
+<br>
+
+
+
+<tr><th align="left" bgcolor="#a0a0a0"><a name="#faq4">
+Ｑ．「エラー　～」と表示され終了してしまう</a>
+<tr><td align="left">
+　フォルダかファイルに書き込み禁止属性が付いている、ディスクがいっぱい、<br>
+　データファイルが壊れている等考えられます。<br>
+<br>
+　表示された内容を報告していただけるとありがたいです。<br>
+<br>
+<br>
+<br>
+
+
+<tr><th align="left" bgcolor="#a0a0a0"><a name="#faq5">
+Ｑ．アンインストールするには？</a>
+<tr><td align="left">
+　インストールしたフォルダごと消してください。<br>
+　レジストリにも書き込みませんし、特に他のファイルも存在しません<br>
+　もし、自分でショートカットを作成した場合、それも消してください。
+<br>
+<br>
+<br>
+
+
+
+<tr><th align="left" bgcolor="#a0a0a0"><a name="#faq6">
+Ｑ．処理落ちが激しくてつらい</a>
+<tr><td align="left">
+　device.exeを起動してFormatをR5G6B5にしたり、ウィンドウサイズを小さくすると<br>
+　こころもち早くなります。<br>
+　又、config.exeを起動して、描画回数を下げると若干早くなります。<br><br>
+　当ゲームはある一定以上のビデオカードが搭載されていないと、どんなにＣＰＵが速くても<br>
+　どんなにメモリを積んでいても、意味がありませんので注意してください<br>
+<br>
+<br>
+<br>
+
+
+
+<tr><th align="left" bgcolor="#a0a0a0"><a name="#faq7">
+Ｑ．設定を間違えて、強烈な重さで起動してしまって、終了したい</a>
+<tr><td align="left">
+　1 fps とかになってしまうと、タイトル画面が出るまでにものすごく時間がかかってしまいます。<br>
+　そう言うときは、Alt + F4 を押して、ウィンドウを閉じてください。終了されます。<br>
+<br>
+<br>
+<br>
+
+
+
+<tr><th align="left" bgcolor="#a0a0a0"><a name="#faq10">
+Ｑ．難しくて、クリアできません</a>
+<tr><td align="left">
+　まずはチュートリアルで操作方法を。<br>
+　その後、ＥＡＳＹの一面などで慣れましょう。<br>
+　また、難易度選択で左右キーを押すと、防御力や攻撃力が強化されますので利用しましょう。<br>
+　ＬＵＳＵＳはマッチモード用の存在なので、クリアできないのが正常です。<br>
+<br>
+<br>
+
+
+
+<tr><th align="left" bgcolor="#a0a0a0"><a name="#faq11">
+Ｑ．クリアしたらなにかある？</a>
+<tr><td align="left">
+　エキストラがクリア度合いによって増えます。<br>
+　又、武装とかも増えていってます。<br>
+　それ以降はありません。<br>
+<br>
+<br>
+
+
+
+<tr><th align="left" bgcolor="#a0a0a0"><a name="#faq12">
+Ｑ．オープンソースだけど、使用範囲は？</a>
+<tr><td align="left">
+　ほぼ自由です。報告もいりません。<br>
+　オープンソースなので、当然exe本体も自由配布して構いません。<br>
+　また、サークルで描いた画像ファイルも使用可能です。<br>
+　ただし、音楽、効果音ファイルは借り物なので、各自使用許可を取ってください。<br>
+　つまり、例を挙げると。<br>
+　１．全てをそのまま配布、販売する。－＞×<br>
+　２．音楽無しバージョンを使って配布、販売する。－＞○<br>
+　３．オリジナルの音楽（効果音）をつけて、配布、販売。－＞○<br>
+　４．音楽や効果音の使用許可を取った上で、会話やステージ内容を変更して配布、販売。－＞○<br>
+　５．ソースを改変して、新たなゲームとして配布、販売。－＞○<br>
+　６．自作のゲームにキャラクター絵などを流用して配布、販売。－＞○<br>
+  <br>
+とまあ、ほとんどＯＫです。<br>
+要は、音楽と効果音にノータッチなら営利、非営利を問わず無断で使用して良いということです。<br>
+<br>
+ひとつお願いが。<br>
+使用は自己責任で、こちらに転嫁されることのないよう。<br>
+<br>
+<br>
+
+
+
+</table>
+</font>
+
+
+
+<font size=2><center><a href="top.html">トップへ</a></center></font>
+
+
+<font size=2 >
+<div align="right">
+<hr>
+プログラム本体、イメージデータ、マニュアル等の著作権は製作者ＫｖＬＷにあります。<br>
+</font>
+</div>
+</font>
+
+</body>
+</html>
+
